@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.foomo.org/zugspitze" xsi:schemaLocation="http://www.foomo.org/zugspitze http://foomo.bestbytes.net/zugspitze/scaffold.xsd">
 	<id>org.foomo.zugspitze.air2</id>
 	<type>Core Library Project</type>
-	<name>AIR 4 (Spark)</name>
+	<name>AIR 2 (Spark)</name>
 	<description>AIR Zugspitze extension.</description>
 	<dependencies>
 		<id>org.foomo.zugspitze.core</id>
