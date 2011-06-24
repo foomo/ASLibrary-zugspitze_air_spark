@@ -1,11 +1,11 @@
 package org.foomo.zugspitze.apps
 {
+	import flash.display.DisplayObject;
+
+	import org.foomo.zugspitze.core.Zugspitze;
 	import org.foomo.zugspitze.core.ZugspitzeController;
 	import org.foomo.zugspitze.core.ZugspitzeModel;
-	import org.foomo.zugspitze.core.Zugspitze;
 	import org.foomo.zugspitze.events.ZugspitzeEvent;
-
-	import flash.display.DisplayObject;
 
 	import spark.components.WindowedApplication;
 
@@ -18,7 +18,7 @@ package org.foomo.zugspitze.apps
 	/**
 	 * Zuspitzimplementation extending Flex Windowed Application
 	 */
-	public class WindowedApplication extends spark.components.WindowedApplication implements IApplication
+	public class ZugspitzeWindowedApplication extends WindowedApplication implements IApplication
 	{
 		//-----------------------------------------------------------------------------------------
 		// ~ Variables
@@ -36,7 +36,7 @@ package org.foomo.zugspitze.apps
 		/**
 		 * Constructor
 		 */
-		public function WindowedApplication():void
+		public function ZugspitzeWindowedApplication():void
 		{
 			super();
 			_zugspitze = new Zugspitze(this);
