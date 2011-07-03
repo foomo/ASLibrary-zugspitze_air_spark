@@ -5,6 +5,7 @@
 	<name>AIR 2 (Spark)</name>
 	<description>AIR Zugspitze extension.</description>
 	<dependencies>
+		<id>org.foomo.flash</id>
 		<id>org.foomo.zugspitze.core</id>
 		<id>org.foomo.zugspitze.flex4</id>
 	</dependencies>
